@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #060e16;
+  font-family: sans-serif;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.day-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #10ca1a;
+  margin: 2px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: transparent;
+}
+.past-day {
+  background-color: #d31111;
+  color: white;
+  border: 1px solid #4f5e34;
+}
+
+.day-box:hover {
+  background-color: #d31111;
+  color: #ecf0f1;
+  border: 1px solid #4f5e34;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin: 1.6rem 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
