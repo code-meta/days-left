@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #060e16;
+  background-color: #0b091c;
   font-family: sans-serif;
 }
 
@@ -32,17 +32,19 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
   color: transparent;
+  border-radius: 4px;
 }
+
 .past-day {
   background-color: #d31111;
   color: white;
-  border: 1px solid #4f5e34;
+  border: 1px solid #080b03;
 }
 
 .day-box:hover {
   background-color: #d31111;
   color: #ecf0f1;
-  border: 1px solid #4f5e34;
+  border: 1px solid #080b03;
 }
 
 .title {
